@@ -27,7 +27,7 @@ body{
     background-color: var(--white);
     padding: 20px;
     border-radius: 20px;
-    width: min-content;
+    width: 25%;
     border: 1px solid black;
     box-shadow: 8px 8px black;
 }
@@ -68,11 +68,16 @@ body{
 
 img{
     border-radius: 10px;
+    width: 100%;
 }
 
 .signature{
     display: flex;
     align-items: center;
+}
+
+.signature > img{
+    width: 15%;
 }
 
 .sig-text{
